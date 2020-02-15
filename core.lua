@@ -6,7 +6,7 @@ POWER_EventFrame:SetScript("OnEvent",
 		--print(unitPower)
 		arg1, arg2 = ...
 		if arg2 == "ALTERNATE" then
-			if unitPower < 900 then 
+			if unitPower < 400 then 
 				PlaySound(8959)
 			end
 		end
